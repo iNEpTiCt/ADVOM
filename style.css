@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Open+Sans:wght@300;400;500&family=Oswald:wght@200;300;400;500;600&display=swap');body{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+header{
+    position: fixed;
+}
+.header{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3A3A3A;
+    padding-right: 0px;
+    padding-left: 30px;
+}
+.header a{
+    color: #ffffff;
+    font-size: 22.5px;
+}
+.glav{
+    color: #FFCF38;
+}
+.header ul{
+    display: flex;
+    font-size: 22.5px;
+    font-weight: 500;
+}
+.header li{
+    margin-right: 45px;
+}
+main{
+    /* background-image: url('images/display1/bg_more_2a.jpg'); */
+    text-align: center;
+}
+.display1{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    background-image: url('images/display1/bg_more_2a.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.aopip{
+    background-color: rgba(0 , 0 , 0 , 0.695);
+    width: 60%;
+    margin: auto;
+    padding: 30px;
+    color: white;
+    margin-top: 35px;
+}
+.aopip span{
+    color: rgb(242, 242, 67);
+}
+.aopip h2{
+    font-weight: 350;
+    font-size: 36px;
+    margin-bottom: 0px;
+    margin-top: 8px;
+}
+.startnow{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding-bottom: 35px;
+    padding-top: 35px;
+}
+.startnow img{
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+}
+.startnow p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.display2{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    /* justify-content: center; */
+    margin: 0;
+    padding: 0;
+    background-image: url(/images/display2/gora.jpeg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 80vh;
+    margin-top: 45px;
+}
+.display2 h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+}
+.display2 span{
+    color: #FFC71A;
+}
+.dis2p{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100vh;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 16px;
+    color: #797979;
+    font-weight: 300;
+    line-height: 1.79em;
+ }
+.dis2p1{
+    text-align: left;
+    width: 40%;
+}
+.dis2p2{
+    text-align: left;
+    width: 40%;
+}
